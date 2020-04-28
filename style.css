@@ -1,0 +1,25 @@
+
+img {
+		object-fit: cover; 
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+  	
+    
+}
+
+.buffer{ 
+    
+    height:50px;
+}
+
+
+.container {
+    background-color: rgba(15,135,0,0.8);
+}
+
+h1 {
+     text-indent: 100px
+    
+}
+
