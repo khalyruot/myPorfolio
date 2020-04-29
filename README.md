@@ -12,4 +12,4 @@ My Resume Webpage
 Khaly Ruot's website.
 
 ## Try
-<a href="https://davidpwu.com">https://davidpwu.com</a>
+<a href="khaly_ruot">https://khalyruot.com</a>
