@@ -16,10 +16,11 @@ img {
 
 .container {
     background-color: rgba(15,135,0,0.8);
+    padding-left: 700px;
 }
 
 h1 {
-     text-indent: 100px
+     text-indent: 50px;
     
 }
 
