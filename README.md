@@ -11,7 +11,7 @@ My Resume Webpage
 
 Khaly Ruot's website.
 
-## Try
+## Try This
 
 
 <a href="khaly_profile.html">khaly_profile.html</a>
