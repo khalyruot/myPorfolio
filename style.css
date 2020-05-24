@@ -1,6 +1,6 @@
 
 img {
-		object-fit: cover; 
+    object-fit: cover; 
     width: 300px;
     height: 300px; 
     border-radius: 45%;
@@ -16,7 +16,6 @@ img {
 
 .container {
     background-color: rgba(15,135,0,0.8);
-    padding-left: 700px;
     display: flex;
     justify-content: center;
 }
