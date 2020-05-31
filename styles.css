@@ -1,26 +1,14 @@
 img {
 
   object-fit: cover; 
-
-  width: 300px;
-
-  height: 300px; 
-
   border-radius: 45%;
-
-  
-
-  
-
 }
 
 
 
 .buffer{ 
 
-  
-
-  height:50px;
+  height:20px;
 
 }
 
@@ -42,9 +30,7 @@ img {
 
 h1 {
 
-   text-indent: 80px;
-
-  
+   text-indent: 20px;
 
 }
 
