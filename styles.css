@@ -4,7 +4,16 @@ img {
   border-radius: 100%s;
 }
 
+ul {
 
+  background-color: rgba(117, 199, 107, 0.8);
+
+  display: flex;
+
+  justify-content: left;
+; 
+  
+}
 
 .buffer{ 
 
