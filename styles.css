@@ -1,8 +1,13 @@
+body{
+  font-size: 200%;
+}
+
 img {
 
   object-fit: cover; 
-  border-radius: 100%s;
+  border-radius: 200%;
 }
+
 
 ul {
 
