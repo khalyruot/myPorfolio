@@ -21,6 +21,7 @@ ul {
 .buffer{ 
 
   height:30px;
+  text-align: center;
 
 }
 
@@ -31,13 +32,7 @@ i{
 
 
 .container {
-
-  background-color: rgba(15,135,0,0.8);
-
-  display: flex;
-
-  justify-content: center;
-
+  background-color: rgba(15,135,0,0.8);  
 }
 * {
   box-sizing: border-box;
