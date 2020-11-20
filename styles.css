@@ -9,7 +9,7 @@ img {
 }
 
 
-ul {
+ul { 
 
   display: flex;
 
@@ -22,6 +22,7 @@ ul {
 
   height:30px;
   text-align: center;
+  background-color: rgba(15,135,0,0.8);
 
 }
 
@@ -39,16 +40,19 @@ i{
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #fafafa;
+  padding: 10px;
+  
 }
 
 .flex-item-left {
   background-color: #f1f1f1;
-  padding: 100px;
-  flex: 50%;
+  margin-left: auto;
+  margin-rigt: auto; 
+  
+  
  
 }
 
