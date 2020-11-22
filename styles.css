@@ -49,6 +49,25 @@ ul {
   justify-content: left;
 }
 
+.button2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 2.5vh;
+  align-items: center;
+}
+
+.image3 {
+  display: block;
+  width: 50vh;
+  height: 50vh;
+}
+
+.name2 {
+  font-size: 5vh;
+  text-align: left;
+  
+}
+
 .buffer {
   height:4vh;
   text-align: center;
