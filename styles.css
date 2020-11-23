@@ -28,7 +28,6 @@
 .button1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding: 2.5vh;
   align-items: center;
 }
 .name1 {
@@ -38,8 +37,6 @@
 
 .image2 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50vh;
   height: 50vh;
 }
@@ -52,7 +49,6 @@ ul {
 .button2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 2.5vh;
   align-items: center;
 }
 
@@ -65,7 +61,7 @@ ul {
 .name2 {
   font-size: 5vh;
   text-align: left;
-  
+  text-align: justify;
 }
 
 .buffer {
@@ -76,11 +72,13 @@ ul {
 
 i {
   font-size: 2.5vh;
+  text-align: justify;
 }
 
 h2 {
   text-indent: 0.5vh;
-  padding-top: 2.5vh;
+  font-size: 10vh;
+  
 }
 
 .image2 {
