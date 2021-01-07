@@ -3,7 +3,7 @@
 .button {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: #2196f3;
+  background-color: #46a7f7;
   padding: 2.5vh;
   align-items: center;
 }
@@ -24,7 +24,7 @@
 .buffer {
   height:4vh;
   text-align: center;
-  background-color: rgba(15, 135, 0, 0.8);
+  background-color: rgba(100, 223, 84, 0.8);
 }
 .button1 {
   display: grid;
