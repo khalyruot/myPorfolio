@@ -123,7 +123,6 @@ h2 {
     grid-template-area: 
           "set 1"
           "set 2";
-    align-items: center;
     font-family: arial, helvetica, sans-serif;
   }
 }
