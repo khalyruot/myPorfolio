@@ -30,13 +30,14 @@
 }
 .button1 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-area: 
-        "set 1"
-        "set 2";
-  align-items: center;
+  grid-template-columns: 1fr;
+  
   font-family: arial, helvetica, sans-serif;
+
+  @media (mid-width: 56.25em){
+    grid-template-columns: 1fr 300px;
+  }
+
 }
 
 
@@ -115,15 +116,4 @@ h2 {
   float: center;
 }
 
-@media only screen and (min-width: 768px){
-  button1 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-area: 
-          "set 1"
-          "set 2";
-    font-family: arial, helvetica, sans-serif;
-  }
-}
 
