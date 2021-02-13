@@ -59,14 +59,14 @@ ul {
 
 .button2 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2.5fr;
   grid-template-rows: 1fr; 
   align-items: center;
   font-family: arial, helvetica, sans-serif;
 }
 .button3{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2.5fr;
  
 }
 .name3 {
@@ -113,6 +113,14 @@ h2 {
 }
 
 @media (max-width: 500px){
+
+  .button{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-family: arial, helvetica, sans-serif;
+  }
+
   .button1{
     display: grid;
     grid-template-columns: 1fr;
