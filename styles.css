@@ -30,16 +30,10 @@
 }
 .button1 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
-  @media (mid-width: 56em){
-    grid-template-columns: 1fr 300px;
-  }
-  
   font-family: arial, helvetica, sans-serif;
-
  
-
 }
 
 
@@ -116,6 +110,27 @@ h2 {
 
 .image2 {
   float: center;
+}
+
+@media (max-width: 500px){
+  .button1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-family: arial, helvetica, sans-serif;
+  }
+  .button2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-family: arial, helvetica, sans-serif;
+  }
+  .button3{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-family: arial, helvetica, sans-serif;
+  }
 }
 
 
