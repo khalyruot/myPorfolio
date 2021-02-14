@@ -62,8 +62,7 @@ ul {
 
 .education {
   display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  grid-template-rows: 1fr; 
+  grid-template-columns: 1fr 2.5fr; 
   align-items: center;
   font-family: arial, helvetica, sans-serif;
 }
@@ -127,13 +126,12 @@ h2 {
   margin-right: auto;
 }
 
-@media (min-width: 500px){
+@media (max-width: 100px){
 
   .top_corner{
     display: grid;
     grid-template-columns: 1fr;
-    font-family: arial, helvetica, sans-serif;
-    color: blue;
+    
   }
   .image1{
     display: block;
