@@ -49,6 +49,9 @@
   width: 50vh;
   height: 50vh;
   padding: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 ul {
@@ -80,6 +83,8 @@ ul {
   display: block;
   width: 50vh;
   height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .name2 {
@@ -110,6 +115,8 @@ h2 {
 
 .image2 {
   float: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 500px){
@@ -119,6 +126,14 @@ h2 {
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
+  }
+  .image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .name{
+    text-align: center;
   }
 
   .button1{
