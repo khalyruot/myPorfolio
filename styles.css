@@ -119,13 +119,13 @@ h2 {
   margin-right: auto;
 }
 
-@media (max-width: 500px){
+@media screen and (max-width: 56em){
 
   .button{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
     font-family: arial, helvetica, sans-serif;
+    color: blue;
   }
   .image1{
     display: block;
