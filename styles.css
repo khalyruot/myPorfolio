@@ -1,6 +1,6 @@
 
 
-.button {
+.top_corner {
   display: grid;
   grid-template-columns: 1fr 2fr;
   background-color: #46a7f7;
@@ -15,7 +15,7 @@
   height: 50vh;
 }
 
-.name {
+.top_name {
   font-size: 10vh;
   text-align: left;
   font-family: arial, helvetica, sans-serif;
@@ -28,7 +28,7 @@
   background-color: rgba(100, 223, 84, 0.8);
   font-family: arial, helvetica, sans-serif;
 }
-.button1 {
+.top_intro {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
@@ -37,7 +37,7 @@
 }
 
 
-.name1 {
+.intro {
   font-size: 5vh;
   text-indent: 5vh;
   text-align: justify;
@@ -60,23 +60,27 @@ ul {
   font-family: arial, helvetica, sans-serif;
 }
 
-.button2 {
+.education {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   grid-template-rows: 1fr; 
   align-items: center;
   font-family: arial, helvetica, sans-serif;
 }
-.button3{
+.education_text{
+  font-size: 5vh;
+  text-align: justify;
+  font-family: arial, helvetica, sans-serif;
+}
+.top_work_exp{
   display: grid;
   grid-template-columns: 1fr 2.5fr;
  
 }
-.name3 {
+.work_exp_text { 
   font-size: 5vh;
   text-align: left;
   font-family: arial, helvetica, sans-serif;
-  
  
 }
 .image3 {
@@ -86,12 +90,16 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
-.name2 {
+.top_self_taught{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+ 
+}
+.self_taught_text { 
   font-size: 5vh;
   text-align: left;
-  text-align: justify;
   font-family: arial, helvetica, sans-serif;
+ 
 }
 
 .buffer {
@@ -119,9 +127,9 @@ h2 {
   margin-right: auto;
 }
 
-@media (max-width:500px){
+@media (min-width: 500px){
 
-  .button{
+  .top_corner{
     display: grid;
     grid-template-columns: 1fr;
     font-family: arial, helvetica, sans-serif;
@@ -132,24 +140,30 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
-  .name{
+  .top_name{
     text-align: center;
   }
 
-  .button1{
+  .top_intro{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
     
   }
-  .button2{
+  .education{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
   }
-  .button3{
+  .top_work_exp{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-family: arial, helvetica, sans-serif;
+  }
+  .top_self_taught{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
