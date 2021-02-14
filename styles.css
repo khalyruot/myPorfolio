@@ -141,6 +141,7 @@ h2 {
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
+    
   }
   .button2{
     display: grid;
