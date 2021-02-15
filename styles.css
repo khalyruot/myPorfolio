@@ -30,7 +30,7 @@
 }
 .top_intro {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   font-family: arial, helvetica, sans-serif;
  
@@ -126,7 +126,7 @@ h2 {
   margin-right: auto;
 }
 
-@media (min-width: 100vh){
+@media (min-width: 56.25em){
 
   .top_corner{
     display: grid;
@@ -144,7 +144,7 @@ h2 {
 
   .top_intro{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
     
