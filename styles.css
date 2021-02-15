@@ -131,6 +131,8 @@ h2 {
   .top_corner{
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
     
   }
   .image1{
@@ -140,6 +142,8 @@ h2 {
   }
   .top_name{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .top_intro{
@@ -147,6 +151,7 @@ h2 {
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
+   
     
   }
   .education{
@@ -154,17 +159,37 @@ h2 {
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
+   
   }
   .top_work_exp{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
+  
   }
   .top_self_taught{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    font-family: arial, helvetica, sans-serif;
+
+  }
+  h2 {
+  
+    font-size: 8vh;
+    text-indent: 5vh;
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  i {
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: arial, helvetica, sans-serif;
   }
 }
