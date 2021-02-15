@@ -126,7 +126,7 @@ h2 {
   margin-right: auto;
 }
 
-@media (max-width: 100px){
+@media (min-width: 100px){
 
   .top_corner{
     display: grid;
