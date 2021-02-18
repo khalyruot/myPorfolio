@@ -114,7 +114,7 @@ h2 {
   margin-right: auto;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 56em) {
   .top_corner {
     display: grid;
     grid-template-columns: 1fr;
