@@ -1,7 +1,7 @@
 .top_corner {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: #46a7f7;
+  background-color: #71c22f;
   padding: 2.5vh;
   align-items: center;
   font-family: arial, helvetica, sans-serif;
@@ -27,7 +27,7 @@
 .buffer {
   height: 4vh;
   text-align: center;
-  background-color: rgba(100, 223, 84, 0.8);
+  background-color: rgba(69, 94, 206, 0.8);
   font-family: arial, helvetica, sans-serif;
 }
 .top_intro {
