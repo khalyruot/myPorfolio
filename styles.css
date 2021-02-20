@@ -1,6 +1,6 @@
 .top_corner {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2.5fr;
   background-color: #d6bfd3;
   padding: 2.5vh;
   align-items: center;
