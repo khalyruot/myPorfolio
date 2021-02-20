@@ -108,12 +108,14 @@ i {
 }
 
 h2 {
-  font-weight: bold;
   font-size: 8vh;
-  text-indent: 5vh;
+  font-weight: bold;
+  text-decoration: underline;
   font-family: arial, helvetica, sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .image2 {
   float: center;
   margin-left: auto;
@@ -162,14 +164,7 @@ h2 {
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
   }
-  h2 {
-    font-size: 8vh;
-    text-decoration: underline;
-    font-family: arial, helvetica, sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   i {
     font-size: 2.5vh;
     text-align: center;
