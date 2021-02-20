@@ -1,7 +1,7 @@
 .top_corner {
   display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  background-color: #d6bfd3;
+  grid-template-columns: 1fr 2.5fr 0.5fr;
+  background-color: #6975f1;
   padding: 2.5vh;
   align-items: center;
   font-family: arial, helvetica, sans-serif;
@@ -9,7 +9,7 @@
 .right {
   display: block;
   position: absolute;
-  top: 8px;
+  align-content: center;
   right: 16px;
 }
 .image1 {
