@@ -42,6 +42,7 @@ body {
   grid-template-rows: 1fr;
   gap: 20px;
   font-family: arial, helvetica, sans-serif;
+  padding: 0.5em;
 }
 
 .intro {
@@ -81,6 +82,7 @@ ul {
 .top_work_exp {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
+  padding: 0.5em;
 }
 .work_exp_text {
   font-size: 5vh;
@@ -97,6 +99,7 @@ ul {
 .top_self_taught {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
+  padding: 0.5em;
 }
 .self_taught_text {
   font-size: 5vh;
