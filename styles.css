@@ -143,7 +143,7 @@ h2 {
     margin-right: auto;
   }
   .image1 {
-    border-radius: 12em;
+    border-radius: 20em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -152,7 +152,7 @@ h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 6vh;
+    font-size: 4vh;
     font-weight: bold;
   }
 
