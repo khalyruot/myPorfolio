@@ -20,6 +20,7 @@ body {
 }
 .image1 {
   display: block;
+  border-radius: 5em;;
   width: 50vh;
   height: 50vh;
 }
