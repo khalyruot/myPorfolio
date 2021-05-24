@@ -135,7 +135,7 @@ h2 {
   margin-right: auto;
 }
 
-@media (max-width: 56em) {
+@media only screen and (max-width: 800px) {
   .top_corner {
     display: grid;
     grid-template-columns: 1fr;
@@ -143,6 +143,7 @@ h2 {
     margin-right: auto;
   }
   .image1 {
+    border-radius: 12em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -151,6 +152,8 @@ h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 6vh;
+    font-weight: bold;
   }
 
   .top_intro {
@@ -184,5 +187,15 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     font-family: arial, helvetica, sans-serif;
+  }
+
+  h2 {
+    font-size: 2vh;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
