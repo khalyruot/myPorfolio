@@ -173,6 +173,7 @@ h2 {
   .top_intro {
     display: grid;
     grid-template-columns: 1fr;
+    font-size: 2vh;
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
   }
