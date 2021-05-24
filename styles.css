@@ -146,6 +146,7 @@ h2 {
     border-radius: 20em;
     width: 250px;
     height: 250px;
+    padding: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -154,6 +155,11 @@ h2 {
   .btn-group{
     width: 10px;
     height: 10px;
+  }
+  .buffer {
+    height: 20px;
+    text-align: center;
+    background-color: rgba(15, 135, 0, 0.8);
   }
 
   .top_name {
