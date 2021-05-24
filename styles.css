@@ -4,6 +4,28 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+#A1{
+  font-size: 6vh;
+  font-weight: bold;
+}
+#A2{
+  font-size: 6vh;
+  font-weight: bold;
+}
+#A3{
+  font-size: 6vh;
+  font-weight: bold;
+}
+#A4{
+  font-size: 6vh;
+  font-weight: bold;
+}
+#A5{
+  font-size: 6vh;
+  font-weight: bold;
+}
+
 .top_corner {
   display: grid;
   grid-template-columns: 1fr 2.5fr 0.5fr;
@@ -26,8 +48,9 @@ body {
 }
 
 .top_name {
-  font-size: 10vh;
-  text-align: left;
+  font-size: 8vh;
+  font-weight: bold;
+  text-align: center;
   font-family: arial, helvetica, sans-serif;
 }
 
@@ -175,24 +198,28 @@ h2 {
     grid-template-columns: 1fr;
     font-size: 2vh;
     gap: 20px;
+    font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
   }
   .education {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
   }
   .top_work_exp {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
   }
   .top_self_taught {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
   }
 
@@ -204,13 +231,25 @@ h2 {
     font-family: arial, helvetica, sans-serif;
   }
 
-  h2 {
-    font-size: 2vh;
+  #A1{
+    font-size: 5vh;
     font-weight: bold;
-    text-decoration: underline;
-    font-family: arial, helvetica, sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
+  #A2{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A3{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A4{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A5{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+
 }
