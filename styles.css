@@ -31,7 +31,7 @@ body {
   grid-template-columns: 1fr 2.5fr 0.5fr;
   background-color: #6975f1;
   padding: 2.5vh;
-  align-items: left;
+  align-items: center;
   font-family: arial, helvetica, sans-serif;
 }
 .right {
@@ -50,7 +50,8 @@ body {
 .top_name {
   font-size: 8vh;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  padding-left: 50px;
   font-family: arial, helvetica, sans-serif;
 }
 
@@ -187,6 +188,7 @@ h2 {
 
   .top_name {
     text-align: center;
+    padding-left: 5px;
     margin-left: auto;
     margin-right: auto;
     font-size: 6vh;
