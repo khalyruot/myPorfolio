@@ -63,7 +63,7 @@ body {
 }
 .top_intro {
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   gap: 20px;
   font-family: arial, helvetica, sans-serif;
@@ -168,8 +168,8 @@ h2 {
   }
   .image1 {
     border-radius: 20em;
-    width: 270px;
-    height: 270px;
+    width: 200px;
+    height: 200px;
     padding: 20px;
     display: block;
     margin-left: auto;
