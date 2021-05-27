@@ -255,3 +255,103 @@ h2 {
   }
 
 }
+
+
+@media only screen and (max-width: 300px) {
+  .top_corner {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image1 {
+    border-radius: 20em;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-group{
+    width: 10px;
+    height: 10px;
+  }
+  .buffer {
+    height: 20px;
+    text-align: center;
+    background-color: rgba(15, 135, 0, 0.8);
+  }
+
+  .top_name {
+    text-align: center;
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+
+  .top_intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 2vh;
+    font-family: arial, helvetica, sans-serif;
+  }
+  .education {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 2vh;
+    font-family: arial, helvetica, sans-serif;
+  }
+  .top_work_exp {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 2vh;
+    font-family: arial, helvetica, sans-serif;
+  }
+  .top_self_taught {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 2vh;
+    font-family: arial, helvetica, sans-serif;
+  }
+
+  i {
+    font-size: 1vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, helvetica, sans-serif;
+  }
+
+  #A1{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A2{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A3{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A4{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  #A5{
+    font-size: 5vh;
+    font-weight: bold;
+  }
+
+}
+
+
+
