@@ -335,6 +335,7 @@ h2 {
   }
 
   #icon{
+    background-color: chartreuse;
     opacity: 0.5;
   }
   
@@ -364,14 +365,11 @@ h2 {
     color: #bb0000;
   }
   
-  
-  
-  
 
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .top_corner {
     display: grid;
     grid-template-columns: 1fr;
