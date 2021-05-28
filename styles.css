@@ -388,6 +388,7 @@ h2 {
   .image2{
     width: 200px;
     height: 200px;
+    float: left;
   }
 
   .btn-group{
@@ -418,7 +419,7 @@ h2 {
   }
 
   .intro {
-    font-size: 1vh;
+    font-size: 1.5vh;
     text-align: justify;
     font-family: arial, helvetica, sans-serif;
   }
@@ -432,7 +433,7 @@ h2 {
   }
 
   .education_text {
-    font-size: 1vh;
+    font-size: 1.5vh;
     text-align: justify;
     font-family: arial, helvetica, sans-serif;
   }
@@ -444,7 +445,7 @@ h2 {
     font-family: arial, helvetica, sans-serif;
   }
   .work_exp_text{
-    font-size: 1vh;
+    font-size: 1.5vh;
   }
   .top_self_taught {
     display: grid;
@@ -455,7 +456,7 @@ h2 {
   }
 
   .self_taught_text{
-    font-size: 1vh;
+    font-size: 1.5vh;
   }
 
   i {
@@ -469,22 +470,27 @@ h2 {
   #A1{
     font-size: 2vh;
     font-weight: bold;
+    text-align: left;
   }
   #A2{
     font-size: 2vh;
     font-weight: bold;
+    text-align: left;
   }
   #A3{
     font-size: 2vh;
     font-weight: bold;
+    text-align: left;
   }
   #A4{
     font-size: 2vh;
     font-weight: bold;
+    text-align: left;
   }
   #A5{
-    font-size: vh;
+    font-size: 2vh;
     font-weight: bold;
+    text-align: left;
   }
 
   .media_icon{
