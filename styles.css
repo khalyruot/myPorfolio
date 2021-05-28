@@ -5,6 +5,49 @@ body {
   padding-bottom: 15px;
 }
 
+.media_icon{
+  padding-left: 20px;
+}
+
+.fa {
+  padding: 3px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-facebook {
+  border-radius: 10px;
+  background: #ffffff;
+  color: rgb(3, 93, 228);
+}
+.fa-linkedin {
+  width: 50px;
+  border-radius: 10px;
+  background: white;
+  color: #007bb5;
+}
+.fa-instagram {
+  border-radius: 10px;
+  background: white;
+  color: #125688;
+}
+.fa-youtube {
+  border-radius: 10px;
+  background: #bb0000;
+  color: white;
+}
+
+
+
 
 
 
@@ -172,8 +215,8 @@ h2 {
   }
   .image1 {
     border-radius: 20em;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 20px;
     display: block;
     margin-left: auto;
@@ -257,6 +300,51 @@ h2 {
     font-size: 5vh;
     font-weight: bold;
   }
+
+  .media_icon{
+    padding-left: 0px;
+  }
+  
+  .fa {
+    padding: 3px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 2px;
+    opacity: 0.5;
+  }
+  
+  .fa:hover {
+      opacity: 1;
+  }
+  
+  .fa-facebook {
+    border-radius: 10px;
+    background: #ffffff;
+    color: rgb(3, 93, 228);
+  }
+  .fa-linkedin {
+    width: 50px;
+    border-radius: 10px;
+    background: white;
+    color: #007bb5;
+  }
+  .fa-instagram {
+    border-radius: 10px;
+    background: white;
+    color: #125688;
+  }
+  .fa-youtube {
+    border-radius: 10px;
+    background: #bb0000;
+    color: white;
+  }
+  
+  
+  
+  
 
 }
 
@@ -356,47 +444,4 @@ h2 {
   }
 
 }
-
-.media_icon{
-  padding-left: 25px;
-}
-
-.fa {
-  padding: 3px;
-  font-size: 10px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 2px;
-  opacity: 0.5;
-}
-
-.fa:hover {
-    opacity: 1;
-}
-
-.fa-facebook {
-  border-radius: 10px;
-  background: #ffffff;
-  color: rgb(3, 93, 228);
-}
-.fa-linkedin {
-  width: 50px;
-  border-radius: 10px;
-  background: white;
-  color: #007bb5;
-}
-.fa-instagram {
-  border-radius: 10px;
-  background: white;
-  color: #125688;
-}
-.fa-youtube {
-  border-radius: 10px;
-  background: #bb0000;
-  color: white;
-}
-
-
 
