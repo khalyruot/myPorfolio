@@ -17,10 +17,13 @@ body {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 2px;
-  opacity: 0.5;
 }
 
-.fa:hover {
+#icon{
+  opacity: 0.5
+}
+
+#icon:hover {
     opacity: 1;
 }
 
@@ -77,12 +80,7 @@ body {
   align-items: center;
   font-family: arial, helvetica, sans-serif;
 }
-.right {
-  display: block;
-  position: absolute;
-  align-content: center;
-  right: 16px;
-}
+
 .image1 {
   display: block;
   border-radius: 5em;;
@@ -211,12 +209,17 @@ h2 {
   }
   .image1 {
     border-radius: 20em;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     padding: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .image2{
+    width: 250px;
+    height: 250px;
   }
 
   .btn-group{
@@ -245,6 +248,13 @@ h2 {
     gap: 20px;
     font-family: arial, helvetica, sans-serif;
   }
+
+  .intro {
+    font-size: 3.5vh;
+    text-align: justify;
+    font-family: arial, helvetica, sans-serif;
+  }
+
   .education {
     display: grid;
     grid-template-columns: 1fr;
@@ -252,12 +262,21 @@ h2 {
     font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
   }
+
+  .education_text {
+    font-size: 3.5vh;
+    text-align: justify;
+    font-family: arial, helvetica, sans-serif;
+  }
+
   .top_work_exp {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
+  }
+  .work_exp_text{
+    font-size: 3.5vh;
   }
   .top_self_taught {
     display: grid;
@@ -265,6 +284,10 @@ h2 {
     gap: 20px;
     font-size: 4vh;
     font-family: arial, helvetica, sans-serif;
+  }
+
+  .self_taught_text{
+    font-size: 3.5vh;
   }
 
   i {
@@ -361,6 +384,8 @@ h2 {
     margin-right: auto;
   }
 
+  
+
   .btn-group{
     width: 10px;
     height: 10px;
@@ -401,6 +426,14 @@ h2 {
     font-size: 2vh;
     font-family: arial, helvetica, sans-serif;
   }
+
+  #work_exp_text {
+    font-size: 1vh;
+    text-align: left;
+    background-color: blueviolet;
+    font-family: arial, helvetica, sans-serif;
+  }
+
   .top_self_taught {
     display: grid;
     grid-template-columns: 1fr;
