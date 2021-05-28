@@ -419,7 +419,7 @@ h2 {
   }
 
   .intro {
-    font-size: 1.5vh;
+    font-size: 2vh;
     text-align: justify;
     font-family: arial, helvetica, sans-serif;
   }
@@ -433,7 +433,7 @@ h2 {
   }
 
   .education_text {
-    font-size: 1.5vh;
+    font-size: 2vh;
     text-align: justify;
     font-family: arial, helvetica, sans-serif;
   }
@@ -445,7 +445,7 @@ h2 {
     font-family: arial, helvetica, sans-serif;
   }
   .work_exp_text{
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
   .top_self_taught {
     display: grid;
@@ -456,7 +456,7 @@ h2 {
   }
 
   .self_taught_text{
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
 
   i {
