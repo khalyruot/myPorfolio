@@ -43,10 +43,10 @@ body {
   background: white;
   color: #125688;
 }
-.fa-youtube {
+.fa-github {
   border-radius: 10px;
   background: white;
-  color: #bb0000;
+  color: #125688;;
 }
 
 
@@ -358,10 +358,10 @@ h2 {
     background: white;
     color: #125688;
   }
-  .fa-youtube {
+  .fa-github {
     border-radius: 10px;
     background: white;
-    color: #bb0000;
+    color: #125688;;
   }
   
 
@@ -531,9 +531,9 @@ h2 {
     background: white;
     color: #125688;
   }
-  .fa-youtube {
+  .fa-github {
     border-radius: 10px;
     background: white;
-    color: #bb0000;
+    color: #125688;;
   }
 }
