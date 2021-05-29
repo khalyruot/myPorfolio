@@ -505,10 +505,13 @@ h2 {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 2px;
+  }
+
+  #icon{
     opacity: 0.5;
   }
   
-  .fa:hover {
+  #icon:hover {
       opacity: 1;
   }
   
