@@ -1,4 +1,4 @@
-# My-Porfiolio
+# My-Porfolio
 My Resume Webpage
 
    My name is Khaly Ruot. I grew up in Cambodia, and moved to the United States for pursuing my education. 
