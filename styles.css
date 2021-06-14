@@ -238,6 +238,7 @@ h2 {
     width: 15px;
     height: 10px;
     display: block;
+    background-color: chartreuse;
   }
   .buffer {
     height: 20px;
