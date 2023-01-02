@@ -13,4 +13,4 @@ Please feel free to there explore the website while I am trying to update my dai
 
 To learn more, please go to:  
 
-https://khalyruot.github.io/My-Porfiolio/
+https://khalyruot.github.io/myPorfolio/
